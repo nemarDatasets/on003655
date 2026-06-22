@@ -1,27 +1,75 @@
 {
   "version": "2.0",
-  "dataset_id": "on003655",
-  "source": "openneuro",
-  "source_id": "ds003655",
+  "pipeline_stage": "enriched",
   "title": "VerbalWorkingMemory",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Yuri G. Pavlov": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003655.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1038/s41598-020-72940-5",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003655",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003655",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "37.4 MB (4 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises EEG recordings from a modified Sternberg working memory task designed to dissociate neural mechanisms of verbal information retention from those supporting active manipulation. Participants performed two task types—simple retention and alphabetization—across three memory loads (5, 6, or 7 letters), enabling investigation of temporally distinct oscillatory signatures associated with different working memory processes.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "verbal memory"
+    },
+    {
+      "term": "Sternberg task"
+    },
+    {
+      "term": "oscillations"
+    },
+    {
+      "term": "cognitive load"
+    },
+    {
+      "term": "alphabetization"
+    },
+    {
+      "term": "retention task"
+    }
+  ],
+  "source_hash": "71388ec734c67505ed1329fa4ecbcaf130507307f80bfd52a1fa9ec27d89210d"
 }
