@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "VerbalWorkingMemory",
-  "description": "This dataset comprises EEG recordings from a modified Sternberg working memory task designed to dissociate neural mechanisms of verbal information retention from those supporting active manipulation. Participants performed two task types—simple retention and alphabetization—across three memory loads (5, 6, or 7 letters), enabling investigation of temporally distinct oscillatory signatures underlying different working memory processes.",
+  "description": "This dataset comprises EEG recordings from a modified Sternberg working memory task designed to dissociate neural mechanisms of verbal information retention from those supporting active manipulation. Participants performed two task types—simple retention and alphabetization—across three memory loads (5, 6, or 7 letters), enabling investigation of temporally distinct oscillatory signatures underlying different working memory processes. Please cite: Pavlov, Y. G., & Kotchoubey, B. (2021). Temporally distinct oscillatory codes of retention and manipulation of verbal working memory. Scientific Reports, 11, 11230. https://doi.org/10.1038/s41598-020-72940-5",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,25 +16,28 @@
       "term": "working memory"
     },
     {
-      "term": "verbal memory"
-    },
-    {
       "term": "Sternberg task"
     },
     {
-      "term": "oscillatory activity"
+      "term": "neural oscillations"
+    },
+    {
+      "term": "verbal memory"
     },
     {
       "term": "cognitive load"
     },
     {
-      "term": "retention"
-    },
-    {
       "term": "alphabetization"
     },
     {
+      "term": "retention"
+    },
+    {
       "term": "memory load"
+    },
+    {
+      "term": "information retention"
     }
   ],
   "related_identifiers": [
