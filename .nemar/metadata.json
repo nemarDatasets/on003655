@@ -2,49 +2,12 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "VerbalWorkingMemory",
+  "description": "This dataset comprises EEG recordings from a modified Sternberg working memory task designed to dissociate neural mechanisms of verbal information retention from those supporting active manipulation. Participants performed two task types—simple retention and alphabetization—across three memory loads (5, 6, or 7 letters), enabling investigation of temporally distinct oscillatory signatures underlying different working memory processes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Yuri G. Pavlov": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds003655.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "10.1038/s41598-020-72940-5",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on003655",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003655",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "37.4 MB (4 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".gitattributes",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset comprises EEG recordings from a modified Sternberg working memory task designed to dissociate neural mechanisms of verbal information retention from those supporting active manipulation. Participants performed two task types—simple retention and alphabetization—across three memory loads (5, 6, or 7 letters), enabling investigation of temporally distinct oscillatory signatures associated with different working memory processes.",
   "keywords": [
     {
       "term": "EEG"
@@ -59,17 +22,64 @@
       "term": "Sternberg task"
     },
     {
-      "term": "oscillations"
+      "term": "oscillatory activity"
     },
     {
       "term": "cognitive load"
     },
     {
+      "term": "retention"
+    },
+    {
       "term": "alphabetization"
     },
     {
-      "term": "retention task"
+      "term": "memory load"
     }
   ],
-  "source_hash": "71388ec734c67505ed1329fa4ecbcaf130507307f80bfd52a1fa9ec27d89210d"
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41598-020-72940-5",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003655",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003655",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003655.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "21.6 GB (312 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "methods_description": "EEG data were collected during a modified Sternberg working memory paradigm with two task conditions (retention and alphabetization) and three memory load levels (5, 6, or 7 letters to memorize).",
+  "funding_references": [
+    {
+      "funder_name": "Unknown"
+    }
+  ],
+  "source_hash": "229ed423a82211fda5649cdd7789c96630a70525eca25735f9416831ba684941"
 }
