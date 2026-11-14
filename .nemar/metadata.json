@@ -2,12 +2,22 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "VerbalWorkingMemory",
-  "description": "EEG recordings acquired during a modified Sternberg verbal working memory task. Participants either simply retained letter strings or mentally manipulated them by alphabetizing. Memory load was varied across three levels (5, 6, or 7 letters), enabling study of oscillatory correlates of retention and manipulation.",
-  "methods_description": "Participants performed a modified Sternberg working memory paradigm with two task types (mental manipulation via alphabetization vs. simple retention) and three load levels (5, 6, or 7 letters to memorize), while EEG was recorded.",
+  "description": "Raw EEG recorded during a modified Sternberg verbal working memory task. Participants either simply retained letters or mentally manipulated them by alphabetization, at three memory loads of 5, 6, or 7 letters. Event markers label the baseline, encoding, delay, probe, and response periods for each task and load condition.",
+  "methods_description": "Modified Sternberg working memory paradigm with two task types (retention vs. manipulation/alphabetization) and three load levels (5, 6, 7 letters). Events.tsv files in the eeg folders code trial phases: baseline, instruction, encoding, delay, probe, and response (correct/error).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
-    "Yuri G. Pavlov": {}
+    "Yuri G. Pavlov": {
+      "orcid": "0000-0002-3896-5145",
+      "affiliations": [
+        {
+          "name": "Institute of Medical Psychology and Behavioral Neurobiology University of T??bingen  T??bingen Germany"
+        },
+        {
+          "name": "Department of Psychology Ural Federal University  Ekaterinburg Russia"
+        }
+      ]
+    }
   },
   "keywords": [
     {
@@ -33,7 +43,7 @@
     {
       "identifier": "10.1038/s41598-020-72940-5",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on003655",
@@ -41,14 +51,19 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.18112/openneuro.ds003655.v1.0.0",
+      "identifier": "https://nemar.org/dataset/on003655",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003655.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
     },
     {
-      "identifier": "https://nemar.org/dataset/on003655",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
+      "identifier": "10.1111/ejn.15457",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "funding_references": [
@@ -72,5 +87,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "229ed423a82211fda5649cdd7789c96630a70525eca25735f9416831ba684941"
+  "source_hash": "70bf2d06a7e610aff889d587ba5f6dc788c42cd954ad04d967deaddd33de6ee2"
 }
